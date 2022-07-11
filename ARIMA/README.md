@@ -50,6 +50,7 @@ For stationarizing data we can use nth order differencing. Higher Order Differen
 
 ### ADF Test 
 ADF Test Results for 1st order and 2nd order dierenced data:
+
 ![ADF Test Result](./Img/Electricity_data_adf.png)
 
 **Data is stationary for d=1 as well as for d=2.**
@@ -80,11 +81,15 @@ Clearly q=2.
 ## Diagnostic
 
 ## Forecasting
- Results for ARIMA(2,1,2) are as following:
+
+Results for ARIMA(2,1,2) are as following:
+
  ![1-Jan-2021-Test-Table](./Img/Electricity_data_arima_2_1_2_predictions_2021_1_1.png)
+ 
  Graph:
  
  ![1-Jan-2021-Test-Graph](./Img/Electricity_data_arima_2_1_2_preditions.png)
+ 
  Details of Model ARIMA(2,1,2):
  
  ![Summary ARIMA(2,1,2)](./Img/Electricity_data_arima_2_1_2_arima_summary.png)
