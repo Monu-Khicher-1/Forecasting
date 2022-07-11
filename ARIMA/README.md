@@ -80,15 +80,41 @@ Clearly q=2.
 
 ## Diagnostic
 
+
+For any forecasting model to fit. Residual Error must be white noise. We performed  Ljung Box test on residuals for analyses.
+
+Result of Ljung Box Test for ARIMA(2,1,2):
+
+![Results Ljung Box Test](./Img/Electricity_data_arima_2_1_2_ljung_test_rslt.png)
+
+### Residual Analysis
+
+**ACF Plot:**
+
+![Residuals ACF Plot](./Img/Electricity_data_arima_2_1_2_acf_residual_errors.png)
+
+**PACF Plot:**
+
+![Residuals PACF Plot](./Img/Electricity_data_arima_2_1_2_pacf_residual_errors.png)
+
+**Density Plot:**
+
+![Residuals Density Plot](./Img/Electricity_data_arima_2_1_2_hist_residual_errors.png)
+
 ## Forecasting
 
 Results for ARIMA(2,1,2) are as following:
 
  ![1-Jan-2021-Test-Table](./Img/Electricity_data_arima_2_1_2_predictions_2021_1_1.png)
  
+ **RMSE : 95.894**
+ 
  Graph:
  
  ![1-Jan-2021-Test-Graph](./Img/Electricity_data_arima_2_1_2_preditions.png)
+ 
+ **Red:**   Forecast
+ **Green:** Actual
  
  Details of Model ARIMA(2,1,2):
  
