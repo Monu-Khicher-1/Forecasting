@@ -16,7 +16,7 @@ It requiers following libraries:
 Actual Data of Electricity MCP is non-stationary. For making it stationary we can use different methods.
 
 Plot of actual data:
-![Electricity Data Plot](https://github.com/Monu-Khicher-1/Forecasting/tree/main/ARIMA/Img/Electricity_data_MCP_Plot.png)
+![Electricity Data Plot](./Img/Electricity_data_MCP_Plot.png)
 
 ### Transform Data
 Data transforms are intended to remove noise and improve the signal in time series forecasting.
