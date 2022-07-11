@@ -121,7 +121,11 @@ Results for ARIMA(2,1,2) are as following:
  ![Summary ARIMA(2,1,2)](./Img/Electricity_data_arima_2_1_2_arima_summary.png)
 
 
+# Reference
 
+* 
+*
+*
 
 
 
