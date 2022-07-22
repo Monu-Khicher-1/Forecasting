@@ -7,3 +7,5 @@ Final Results:
 
 ![Results](./Img/prediction_0_4.png)
 
+for more information about the model: 
+
